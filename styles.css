@@ -1,2 +1,9 @@
 
 /* Your CSS Code here. */
+th,td,tr,table,caption{
+	border:1px solid rgb(0,0,0);
+}
+#tar{
+	background-color:rgb(0,0,0);
+	color: rgb(255,255,255);
+}
