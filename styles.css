@@ -1,7 +1,7 @@
 
 /* Your CSS Code here. */
 th,span,td,tr,table{
-	border:1px solid rgb(0,0,0);
+	border:1px solid rgba(0,0,0,0);
 	content-align:center;
 }
 #tar{
