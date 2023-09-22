@@ -9,56 +9,63 @@
 	<body>
     <table style="width: 100%; height: 100%">
       <!-- Your code here -->
-		<span>
-           <table class="center">
-		      <table>
-			     <caption>Nested Table 2</caption>
-			       <tr>
-				   <th>Column 1</th>
-				   <th>Column 2</th>
-			       </tr>
-				   <tr>
-					   <td>abc</td>
-					   <td>def</td>
+		
+        <tr><!-- for table 2  *** for first row of main table *** first column-->
+			<td>
+				<table style="width:100%;">
+					<tr>
+						<th colspan="2">Nested Table 2</th>
 				   </tr>
-			 </table>
-	      </table>
-	   </span>
-
-       <span>
-		<table class="center">
-			<table>
-				<h4>Nested Table 1</h4>
-				<ul>
-					<li>List item</li>
-					<li>List item</li>
-					<li>List item</li>
-				</ul>
-			</table>
-		</table>
-	   </span>
-	
-		<span>
-		<table class="center">
-			<table>
-				<caption>Nested Table 3</caption>
-				<tr>
-					<td><a href ="#">Nested Table</td>
-					<td>Demo Continued</td>
+					<tr>
+					<th>Column 1</th>
+				   <th>Column 2</th>
+					</tr>
+					<tr>
+					<td>abc</td>
+				   <td>def</td>
+					</tr>
+				</table>
+				
+			</td>
+			<td><table style="width:100%;">
+				<tr><!-- for table 1 *** for 1st row of main table*** second column-->
+					<td>Nested Table 1</td>
 				</tr>
-		     </table>
-		 </table>
-		</span>
-		<span>
-		<table class="center">
-			<table>
-			<caption>Nested Table 4</caption>
+				<tr><td>
+					<ul>
+						<li>List item</li>
+						<li>List item</li>
+						<li>List item</li>
+					</ul>
+				</td>
+				</tr>
+			</table></td>
+		</tr>
+		<tr><!-- for table 1 *** for 2nd row of main table*** first column-->
+			<td>
+				<table style="width:100%;">
+					<tr>
+						<th colspan="2">
+							Nested Table 3
+						</th>
+					</tr>
+					<tr>
+						<td><a href="#">Nested Table</td>
+						<td>Demo Continued</td>
+					</tr>
+				</table>
+			</td>
+			<td><!-- for table 1 *** for 2nd row of main table*** second column-->
+				<table style="width:100%;">
+					<tr>Nested Table 4</tr>
 			<tr>
 				<td id ="tar">HTML</td>
 			</tr>
-		    </table>
-		</table>
-		</span>
-    </table>
-  </body>
+				</table>
+			</td>
+		</tr>
+		      
+	</table>     
+      
+</body>
 </html>
