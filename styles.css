@@ -1,11 +1,11 @@
 
 /* Your CSS Code here. */
 th,span,td,tr,table{
-	border:1px solid rgba(0,0,0,0);
+	border:1px solid rgb(0,0,0);
 	content-align:center;
 }
 #tar{
-	background-color:rgb(0,0,0);
+	background-color:rgba(0,0,0,0);
 	color: rgb(255,255,255);
 }
 tr{
